@@ -27,6 +27,7 @@
 
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+            <uses-permission android:name="android.permission.READ_CONTACTS" />
         </config-file>
 
         <source-file src="src/android/UniqueDeviceID.java" target-dir="src/hu/dpal/phonegap/plugins" />
